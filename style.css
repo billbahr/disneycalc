@@ -11,9 +11,24 @@ body {
 }
 
 .title {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin-top: 60px;
+    margin: 60px auto 0 auto;
+}
+
+.calculator {
+    margin: 80px auto 0 auto;
+    width: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.travel-date {
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
+    border-radius: 5px;
 }
