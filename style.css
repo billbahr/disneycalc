@@ -23,6 +23,30 @@ body {
     width: 800px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.date-label {
+    padding-bottom: 5px;
+}
+
+.outputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 2;
+    flex-basis: auto;
 }
 
 .travel-date {
@@ -31,4 +55,19 @@ body {
     vertical-align: middle;
     font-size: large;
     border-radius: 5px;
+}
+
+.dining-date {
+    color: #DC143C;
+    padding-left: 4px;
+}
+
+.dvc7-date {
+    color: #DC143C;
+    padding-left: 4px;    
+}
+
+.dvc11-date {
+    color: #DC143C;
+    padding-left: 4px;    
 }

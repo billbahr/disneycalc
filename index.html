@@ -10,9 +10,17 @@
 <body>
     <h1 class="title">Disney Calculator</h1>
     <div class="calculator">
-        <label for="trip-date">Trip Date</label>
-        <input class="travel-date" id="trip-date" type="date">
+        <div class="inputs">
+            <label for="trip-date" class="date-label">Trip Date</label>
+            <input class="travel-date" id="trip-date" type="date">
+        </div>
+        <div class="outputs">
+            <p>Dining Reservations: <span class="dining-date"></span></p>
+            <p>DVC 7 months: <span class="dvc7-date"></span></p>
+            <p>DVC 11 months: <span class="dvc11-date"></span></p>                        
+        </div>
     </div>
-    <script src="./calculate.js"></script>
+    <script src="./scripts/luxon.js"></script>
+    <script src="./scripts/calculate.js"></script>
 </body>
 </html>
