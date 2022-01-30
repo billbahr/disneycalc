@@ -12,10 +12,10 @@ function calcDates(pageDate) {
     diningDate.innerHTML = beginDate.minus({days:60}).toLocaleString(DateTime.DATE_HUGE).replaceAll(',',' ');
 
     // Home resort DVC reservations can be made 11 months before
-    dvc7Date.innerHTML = beginDate.minus({months:7}).toLocaleString(DateTime.DATE_HUGE).replaceAll(',',' ');
+    dvc11Date.innerHTML = beginDate.minus({months:11}).toLocaleString(DateTime.DATE_HUGE).replaceAll(',',' ');
     
     // Other resort DVC reservations can be made 7 months before
-    dvc11Date.innerHTML = beginDate.minus({months:11}).toLocaleString(DateTime.DATE_HUGE).replaceAll(',',' ');
+    dvc7Date.innerHTML = beginDate.minus({months:7}).toLocaleString(DateTime.DATE_HUGE).replaceAll(',',' ');
 }
 
 tripDate.addEventListener('change', (e) => calcDates(e.target.value));
