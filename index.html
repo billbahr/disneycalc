@@ -13,18 +13,25 @@
     <title>Disney Calculator</title>
 </head>
 <body>
-    <h1 class="title">Disney Calculator</h1>
-    <div class="calculator">
+    <header>
+        <h1 class="title">Disney Calculator</h1>
+    </header>
+    <main class="calculator">
         <div class="inputs">
             <label for="trip-date" class="date-label">Trip Date</label>
             <input class="travel-date" id="trip-date" type="date">
         </div>
         <div class="output">
-            <p>Dining Reservations: <span class="dining-date output-result"></span></p>
-            <p>DVC 7 months: <span class="dvc7-date output-result"></span></p>
-            <p>DVC 11 months: <span class="dvc11-date output-result"></span></p>                        
+            <label for="dining-date" class="date-label">Dining Reservations (60 days)</label>
+            <output class="dining-date output-result" id="dining-date">Ipsum lorem</output>
+            <label for="park-date">DL Park Reservations (120 days)</label>
+            <output class="park-date output-result" id="park-date">Ipsum lorem</output>
+            <label for="dvc7-date">DVC Other Resorts (7 mo)</label>
+            <output class="dvc7-date output-result" id="dvc7-date">Ipsum lorem</output>
+            <label for="dvc11-date">DVC Home Resort (11 mo)</label>
+            <output class="dvc11-date output-result">Ipsum lorem</output>
         </div>
-    </div>
+    </main>
     <script src="./scripts/luxon.js"></script>
     <script src="./scripts/calculate.js"></script>
 </body>
